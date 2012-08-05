@@ -27,6 +27,7 @@ create(){
     mvn archetype:generate \
         -DarchetypeArtifactId=android-quickstart \
         -DarchetypeGroupId=de.akquinet.android.archetypes \
+        -Dplatform=16 \
         -DarchetypeVersion=1.0.8
 }
 
@@ -34,6 +35,7 @@ create_with_test(){
      mvn archetype:generate \
          -DarchetypeArtifactId=android-with-test \
          -DarchetypeGroupId=de.akquinet.android.archetypes \
+         -Dplatform=16 \
          -DarchetypeVersion=1.0.8
 }
 
@@ -41,6 +43,7 @@ create_release(){
     mvn archetype:generate \
         -DarchetypeArtifactId=android-release \
         -DarchetypeGroupId=de.akquinet.android.archetypes \
+        -Dplatform=16 \
         -DarchetypeVersion=1.0.8
 }
 
